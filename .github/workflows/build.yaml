@@ -44,8 +44,6 @@ jobs:
     - name: build
       shell: bash
       run: |
-        cd rmf_demos_ws/src
-        ls
         cd rmf_demos_ws
         source /opt/ros/eloquent/setup.bash
         CXX=g++-8 colcon build --cmake-args -DCMAKE_BUILD_TYPE=RELEASE -DNO_DOWNLOAD_MODELS=True --packages-up-to \
