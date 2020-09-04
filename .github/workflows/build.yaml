@@ -33,7 +33,7 @@ jobs:
     - name: checkout
       uses: actions/checkout@v2
       with:
-        path: ~/rmf_demos_ws/src/rmf_demos
+        path: ~/rmf_demos_ws/src/
 
     - name: ros-deps
       run: |
